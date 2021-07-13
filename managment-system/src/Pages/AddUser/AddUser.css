@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Yomogi&display=swap');
+
+.invalid {
+    color: red;
+}
+
+.cont{
+    border: 1px solid lightgrey;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 9px 10px 11px 1px #adadad;
+}
+
+h1{
+    font-family: 'Yomogi', cursive;
+}
