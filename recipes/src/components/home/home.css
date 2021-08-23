@@ -1,0 +1,124 @@
+.text {
+  margin: 10px;
+  color: #000;
+  font-weight: bold;
+  font-family: "Indie Flower", cursive;
+}
+.plan__list {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.formInputSearch {
+  width: 50%;
+  margin: auto;
+}
+
+.inputSearch {
+  border: none;
+  background: rgba(255, 255, 255, 0.6);
+  height: 30px;
+  width: 8%;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  transition: width 0.4s ease-in-out;
+  background-image: url("../../assets/search-solid.svg");
+  background-position: 16px 10px;
+  background-size: 12px 12px;
+  background-repeat: no-repeat;
+}
+
+.inputSearch:focus {
+  outline: none;
+  width: 100%;
+  padding: 12px 20px 12px 40px;
+}
+
+.mainCard {
+  border: 1px solid #fff;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+  background: rgb(255, 255, 255, 0.6);
+  text-align: center;
+  padding: 16px;
+  margin: 8px;
+  display: inline-block;
+  width: 50%;
+  height: 57vh;
+  vertical-align: middle;
+  position: relative;
+  overflow-y: auto;
+}
+
+.titleFont {
+  font-family: "Style Script", cursive;
+  color: #000;
+}
+
+.add {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  cursor: pointer;
+}
+
+.boxContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.catBox {
+  background: #fff;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+  padding: 5px;
+  margin: 5px;
+  flex-direction: row;
+  width: 33%;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+}
+
+.catBox2 {
+  text-decoration: none;
+}
+
+.delIconCategory {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  font-size: 0.7rem;
+  color: black;
+  display: none;
+}
+
+.catBox:hover {
+  background: #cceabb;
+  border: 1px solid #cceabb;
+}
+
+.catBox:hover .delIconCategory {
+  display: block;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  /* background: #19b84c;  */
+  background: #cceabb;
+  border-radius: 10px;
+}

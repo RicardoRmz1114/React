@@ -1,0 +1,36 @@
+.steps{
+    height:88px;
+    overflow-y: auto;
+}
+
+.elements{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.deleteElement{
+    margin-right: 15px;
+    cursor:pointer;
+    color:red;
+}
+
+.addItem{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color:green;
+    cursor:pointer;
+    font-size: 0.8rem;
+    margin:0px;
+}
+
+.addItemDisabled{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color:grey;
+    cursor:pointer;
+    font-size: 0.8rem;
+    margin:0px;
+}

@@ -1,0 +1,83 @@
+.body {
+  width: 90vw;
+  height: 90vh;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #fff;
+  background: rgb(255, 255, 255, 0.6);
+  border-radius: 10px;
+  padding: 15px;
+  position: relative;
+}
+
+.title {
+  text-align: center;
+  font-family: "Style Script", cursive;
+  color: #000;
+}
+
+.recipeBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Indie Flower", cursive;
+}
+
+.iconDelete {
+  position: absolute;
+  top: 5%;
+  right: 2%;
+  font-size: 0.8rem;
+  display: none;
+}
+
+.recipe {
+  flex-direction: row;
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 30%;
+  padding: 15px;
+  margin: 15px;
+  text-align: center;
+  background: #fff;
+  box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 30%);
+  position: relative;
+}
+
+.dishName {
+  cursor: pointer;
+}
+
+.back {
+  position: absolute;
+  top: 1%;
+  left: 2%;
+  font-size: 1.6rem;
+}
+
+.addRecipe {
+  position: absolute;
+  top: 1%;
+  right: 2%;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.link {
+  color: black;
+}
+
+.link:hover {
+  color: black;
+}
+
+.recipe:hover {
+  background: #cceabb;
+  border: 1px solid #cceabb;
+  box-shadow: 4px 4px 4px 4px rgb(0 0 0 / 30%);
+}
+
+.recipe:hover .iconDelete {
+  display: block;
+  cursor: pointer;
+}
