@@ -1,0 +1,21 @@
+ul {
+    margin: 0px !important;
+    list-style: none;
+    padding: 0px !important;
+
+  }
+  
+  /* Style the list items */
+  ul li {
+    list-style: none;
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 8px;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+  }
+
+  ul li:hover {
+    background: #ddd;
+  }
